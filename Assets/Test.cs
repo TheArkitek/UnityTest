@@ -5,7 +5,7 @@ public class Test : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+        Debug.Log(this.GetComponent<Camera>().transform.position);
 	}
 	
 	// Update is called once per frame
