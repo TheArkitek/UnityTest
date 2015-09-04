@@ -28,10 +28,10 @@ public class EntitySpawner : MonoBehaviour
                 transform.localScale.z * Random.value
                 ) - transform.localScale * 0.5f;
 
-            var instance = (GameObject)Instantiate(entity, pos, Quaternion.identity);
+            Instantiate(entity, pos, Quaternion.identity);
             //float scale = 5f + Random.value * 4f;
             //instance.transform.localScale = new Vector3(scale, scale, scale);
-            instance.transform.Rotate(0, 180, 0);
+            //instance.transform.Rotate(0, 180, 0);
         }
 	}
 }

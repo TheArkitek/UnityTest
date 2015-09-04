@@ -47,8 +47,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\BasicSeeker.cs" />
+     <Compile Include="Assets\Scripts\Billboard.cs" />
+     <Compile Include="Assets\Scripts\ConstantRotation.cs" />
      <Compile Include="Assets\Scripts\EnemyGoal.cs" />
      <Compile Include="Assets\Scripts\EntitySpawner.cs" />
+     <Compile Include="Assets\Scripts\MousePosPicker.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Programs/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
