@@ -15,5 +15,7 @@ public class BasicSeeker : MonoBehaviour
 	void Update ()
     {
         transform.GetComponent<Rigidbody>().velocity = new Vector3(speed, 0, 0);
+        foreach (Transform t in transform)
+            t.position = new Vector3(transform.position.x, 0.1f, transform.position.z);
 	}
 }
